@@ -9,7 +9,7 @@ export default function Estrutura() {
         <div className="relative w-full md:w-1/2 group">
           <div className="relative h-[300 md:h-[450px] w-full overflow-hidden rounded-2xl shadow-2xl">
             <Image 
-              src="/imagem/quadra.jpg" // Nome da sua imagem na pasta public/imagem
+              src="/imagem/estrutura.jpeg" // Nome da sua imagem na pasta public/imagem
               alt="Estrutura da Escola"
               fill
               className="object-cover"

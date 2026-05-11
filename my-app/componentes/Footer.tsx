@@ -1,5 +1,3 @@
-import { Instagram, Facebook, Youtube, Send, MapPin, Phone, Mail } from 'lucide-react';
-
 export default function Footer() {
   return (
     <footer className="bg-[#10356A] text-white pt-16 pb-8 px-6 md:px-20">
@@ -18,7 +16,7 @@ export default function Footer() {
             <p className="text-sm text-blue-200">(81) 9.9569-1234</p>
           </div>
 
-          {/* Colunas de Links (Página Principal, Pastoral, Serviços, Níveis) */}
+          {/* Colunas de Links */}
           <div className="space-y-4">
             <h4 className="font-bold text-lg">Página Principal</h4>
             <ul className="text-sm text-blue-200 space-y-2">
@@ -62,33 +60,30 @@ export default function Footer() {
               <p>E-mail: privacidadeasbeas@asbeas.com.br</p>
             </div>
 
-            {/* AS BOLINHAS CINZAS (REDES SOCIAIS) */}
+            {/* REDES SOCIAIS (Ícones removidos para evitar o erro) */}
             <div className="flex gap-4 pt-4">
               <a href="#" className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-[#10356A] hover:bg-yellow-400 transition-colors">
-                <Instagram size={20} />
+                {/* Instagram removido */}
               </a>
               <a href="#" className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-[#10356A] hover:bg-yellow-400 transition-colors">
-                <Facebook size={20} />
+                {/* Facebook removido */}
               </a>
               <a href="#" className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-[#10356A] hover:bg-yellow-400 transition-colors">
-                <Youtube size={20} />
+                {/* Youtube removido */}
               </a>
               <a href="#" className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-[#10356A] hover:bg-yellow-400 transition-colors">
-                <Send size={20} /> {/* Ícone para WhatsApp ou Telegram */}
+                {/* Send/Telegram removido */}
               </a>
             </div>
           </div>
 
           {/* Logos da Rede Saviniana */}
-          <div className="flex flex-col items-center gap-4">
-            <div className="bg-white p-4 rounded-full flex items-center gap-4 shadow-xl">
-               <img src="/imagem/logo-footer.png" alt="CSC" className="h-10 w-auto" />
-               <div className="w-px h-10 bg-blue-900"></div>
-               <img src="/imagem/logo-saviniana.png" alt="Rede Saviniana" className="h-10 w-auto" />
-            </div>
-            <p className="text-xs text-blue-300 uppercase font-bold tracking-widest">
-              Colégio da Rede Saviniana
-            </p>
+          <div className="flex flex-col items-center justify-center">
+            <img 
+              src="/imagem/logosavi.png" 
+              alt="Rede Saviniana" 
+              className="h-24 md:h-32 w-auto object-contain" 
+            />
           </div>
         </div>
       </div>

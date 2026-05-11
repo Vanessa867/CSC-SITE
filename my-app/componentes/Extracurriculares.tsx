@@ -23,7 +23,7 @@ export default function Extracurriculares() {
             <div className="w-full md:w-1/2 order-1 md:order-2">
               <div className="relative h-80 w-full overflow-hidden rounded-tl-[100px] rounded-br-[100px] shadow-lg">
                 <Image 
-                  src="/imagem/futebol.jpg" 
+                  src="/imagem/integral.png" 
                   alt="Integral" 
                   fill 
                   className="object-cover"
@@ -37,7 +37,7 @@ export default function Extracurriculares() {
             <div className="w-full md:w-1/2">
               <div className="relative h-80 w-full overflow-hidden rounded-tr-[100px] rounded-bl-[100px] shadow-lg">
                 <Image 
-                  src="/imagem/vr.jpg" 
+                  src="/imagem/esportes.png" 
                   alt="Esportes e Projetos" 
                   fill 
                   className="object-cover"

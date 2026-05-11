@@ -14,7 +14,6 @@ export default function Contato() {
           </div>
 
           <div className="space-y-6">
-            {/* Endereço */}
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-[#FFDE00] rounded-full flex-shrink-0"></div>
               <div>
@@ -23,7 +22,6 @@ export default function Contato() {
               </div>
             </div>
 
-            {/* Contato */}
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-[#FFDE00] rounded-full flex-shrink-0"></div>
               <div>
@@ -32,7 +30,6 @@ export default function Contato() {
               </div>
             </div>
 
-            {/* E-mail */}
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 bg-[#FFDE00] rounded-full flex-shrink-0"></div>
               <div>
@@ -43,33 +40,37 @@ export default function Contato() {
           </div>
         </div>
 
-        {/* LADO DIREITO: Formulário */}
+        {/* LADO DIREITO: Formulário (CORRIGIDO) */}
         <div className="w-full md:w-1/2 bg-[#10356A] p-8 md:p-12 rounded-[30px] shadow-2xl">
-          <h3 className="text-2xl font-bold text-white mb-8">Envie uma Mensagem</h3>
+          <h3 className="text-3xl font-bold text-white mb-10">Envie uma Mensagem</h3>
           
-          <form className="space-y-4">
+          <form className="space-y-6">
             <input 
               type="text" 
               placeholder="Nome:" 
-              className="w-full p-4 rounded-xl border-none focus:ring-2 focus:ring-yellow-400 outline-none text-gray-700"
+              className="w-full p-5 rounded-2xl border-none bg-white text-lg placeholder:text-gray-400 focus:ring-2 focus:ring-yellow-400 outline-none text-gray-700"
             />
+            
             <input 
               type="email" 
               placeholder="E-mail:" 
-              className="w-full p-4 rounded-xl border-none focus:ring-2 focus:ring-yellow-400 outline-none text-gray-700"
+              className="w-full p-5 rounded-2xl border-none bg-white text-lg placeholder:text-gray-400 focus:ring-2 focus:ring-blue-400 outline-none text-gray-700"
             />
+            
             <textarea 
               placeholder="Mensagem:" 
-              rows={4}
-              className="w-full p-4 rounded-xl border-none focus:ring-2 focus:ring-yellow-400 outline-none text-gray-700 resize-none"
+              rows={5}
+              className="w-full p-5 rounded-2xl border-none bg-white text-lg placeholder:text-gray-400 focus:ring-2 focus:ring-yellow-400 outline-none text-gray-700 resize-none"
             ></textarea>
             
-            <button 
-              type="submit"
-              className="w-full md:w-auto bg-[#FFDE00] text-[#10356A] font-bold py-4 px-12 rounded-xl hover:bg-yellow-400 transition-colors uppercase tracking-widest mt-4"
-            >
-              Enviar
-            </button>
+            <div className="flex justify-center md:justify-start">
+              <button 
+                type="submit"
+                className="bg-[#FFDE00] text-[#10356A] font-bold py-4 px-14 rounded-2xl hover:bg-yellow-400 transition-colors text-lg mt-6"
+              >
+                Enviar
+              </button>
+            </div>
           </form>
         </div>
 

@@ -1,9 +1,9 @@
 // components/Education.tsx
 const levels = [
-  { title: "Educação Infantil", img: "/infantil.jpg" },
-  { title: "Ensino Fundamental", subtitle: "Anos Iniciais", img: "/fund1.jpg" },
-  { title: "Ensino Fundamental", subtitle: "Anos Finais", img: "/fund2.jpg" },
-  { title: "Ensino Médio", img: "/medio.jpg" },
+  { title: "Educação Infantil", img: "/imagem/infantil.png" },
+  { title: "Ensino Fundamental", subtitle: "Anos Iniciais", img: "/imagem/anosiniciais.png" },
+  { title: "Ensino Fundamental", subtitle: "Anos Finais", img: "/imagem/anosfinais.png" },
+  { title: "Ensino Médio", img: "/imagem/medio.png" },
 ];
 
 export default function Education() {
