@@ -1,10 +1,16 @@
 import Image from 'next/image';
 
 const parceiros = [
-  { nome: "Programa Bilíngue", logo: "/imagem/logo-inter.png" },
-  { nome: "Biblioteca Gamificada", logo: "/imagem/logo-arvore.png" },
-  { nome: "Bíblia Sagrada", logo: "/imagem/logo-biblia.png" },
-  { nome: "Outro Parceiro", logo: "/imagem/logo-parceiro.png" },
+  { nome: "Programa Bilíngue", logo: "/imagem/parceiros/international_school.png" },
+  { nome: "Biblioteca Gamificada", logo: "/imagem/parceiros/arvore.png" },
+  { nome: "Bíblia Sagrada", logo: "/imagem/parceiros/biblia_sagrada.png" },
+  { nome: "Robótica Educacional", logo: "/imagem/parceiros/robotica.png" },
+  { nome: "FTD Educação", logo: "/imagem/parceiros/ftd.png" },
+  { nome: "ANEC", logo: "/imagem/parceiros/anec.png" },
+  { nome: "Plataforma Redigir", logo: "/imagem/parceiros/redigir.png" },
+  { nome: "Bernoulli Sistema de Ensino", logo: "/imagem/parceiros/bernoulli.png" },
+  { nome: "Poliedro Sistema de Ensino", logo: "/imagem/pareceiros/poliedro.png" },
+  { nome: "Rede Saviniana", logo: "/imagem/parceiros/rede_saviniana.png" },
 ];
 
 export default function Parceiros() {
@@ -26,7 +32,6 @@ export default function Parceiros() {
               <div className="bg-blue-800 w-24 h-24 rounded-full flex items-center justify-center mb-6 overflow-hidden p-2">
                 <img 
                   src={item.logo} 
-                  alt={item.nome} 
                   className="w-full h-full object-contain"
                 />
               </div>
