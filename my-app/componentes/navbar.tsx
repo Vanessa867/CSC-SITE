@@ -14,8 +14,8 @@ export default function navbar() {
         />
       </div>
 
-      {/* Links */}
-      <div className="flex gap-8 text-white font-medium">
+      {/* Links - Alterado de font-medium para font-bold */}
+      <div className="flex gap-8 text-white font-bold">
         <a href="#" className="hover:text-blue-300 transition">Sobre nós</a>
         <a href="#" className="hover:text-blue-300 transition">Ensino</a>
         <a href="#" className="hover:text-blue-300 transition">Extracurriculares</a>

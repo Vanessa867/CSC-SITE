@@ -1,4 +1,6 @@
 // components/About.tsx
+import { Home, Target } from "lucide-react"; // Importa o ícone de casa
+
 export default function About() {
   return (
     <section className="bg-blue-50/30 py-20 px-4">
@@ -8,13 +10,13 @@ export default function About() {
         </h2>
         <p className="text-blue-800 leading-relaxed mb-16 text-lg">
           O Colégio de Santa Catarina, fundado em 03 de fevereiro de 1944 como Externato Santa Catarina, segue a pedagogia e o carisma da Bem-aventurada Savina Petrilli, por meio das Irmãs dos Pobres de Santa Catarina de Sena. Com uma estrutura moderna e recursos inovadores, acompanha as transformações sociais e educacionais. Sua proposta pedagógica une conhecimento qualificado à formação humana e cristã, promovendo valores cidadãos e uma visão ampla de mundo. Além disso, mantém um ambiente seguro e acolhedor, característico da Pedagogia Saviniana.
-          {/* Insira o restante do texto aqui */}
         </p>
 
         {/* Bloco Nossa Missão */}
         <div className="flex flex-col md:flex-row items-center gap-8 text-left max-w-3xl mx-auto">
-          <div className="w-24 h-24 bg-blue-900 rounded-lg flex-shrink-0">
-            {/* Aqui vai o ícone da missão */}
+          {/* Centralizamos o ícone dentro do quadrado azul com flex e items-center */}
+          <div className="w-24 h-24 bg-blue-900 rounded-lg flex-shrink-0 flex items-center justify-center">
+            <Target className="text-white w-12 h-12" />
           </div>
           <div>
             <h3 className="text-2xl font-bold text-blue-900 mb-2 uppercase">
