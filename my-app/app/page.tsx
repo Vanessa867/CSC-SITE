@@ -3,7 +3,7 @@ import Hero from '../componentes/hero';
 import About from '../componentes/About';
 import Education from '@/componentes/Education';
 import Estrutura from '../componentes/Estrutura';
-import Extracurriculares from '@/componentes/Extracurriculares';
+import Extracurriculares from '@/componentes/Projetos';
 import Parceiros from '@/componentes/Parceiros';
 import Midia from '@/componentes/Midia';
 import Contato from '@/componentes/Contato';
