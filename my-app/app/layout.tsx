@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nome do Seu Site",
+  title: "Colégio de Santa Catarina",
   description: "Descrição do seu site",
+  icons: {
+    icon: '/imagem/logo.png', 
+  },
 };
 
 export default function RootLayout({
