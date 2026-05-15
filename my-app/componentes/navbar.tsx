@@ -18,7 +18,7 @@ export default function navbar() {
       <div className="flex gap-8 text-white font-bold">
         <a href="#" className="hover:text-blue-300 transition">Sobre nós</a>
         <a href="#" className="hover:text-blue-300 transition">Ensino</a>
-        <a href="#" className="hover:text-blue-300 transition">Extracurriculares</a>
+        <a href="#" className="hover:text-blue-300 transition">Projetos</a>
         <a href="#" className="hover:text-blue-300 transition">Serviços</a>
         <a href="#" className="hover:text-blue-300 transition">Pastoral</a>
       </div>
